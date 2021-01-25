@@ -7,16 +7,47 @@ html {
 
 }
 
+nav a  {
+
+    width: 100%; 
+    background-color: lightgrey;
+
+}
+
+
+nav a:link {
+
+    text-decoration: none;
+    color: white
+
+}
+
+nav a:visited {
+
+    text-decoration: none;
+    color: white
+
+}
+ 
+nav a:hover {
+
+    text-decoration: none;
+    color: black
+
+}
+
+
+
 #profileimage { 
 
-    max-width: 320px; 
+    max-width: 100%; 
 
 }
 
 .portfoliopiece { 
 
-    max-width: 320px;
-
+    max-width: 100%;
+ 
 }
 
 img { 
@@ -27,8 +58,41 @@ img {
 
 #footerbottom {
 
+    background-color: #333030;
     font-family: 'Roboto', sans-serif;
-    color: black; 
+    color: white; 
     font-weight: 700;
 
 }
+
+
+#phonenumber {
+
+    float: right; 
+
+}
+
+#email {
+
+    float: right; 
+
+}
+
+
+
+#footerbottom { 
+
+    margin: 0; 
+    border: 0; 
+    padding: 0; 
+
+}
+
+
+#footerbottom:last-child { 
+
+    float: right; 
+
+}
+
+
