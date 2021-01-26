@@ -7,6 +7,26 @@ html {
 
 }
 
+header  {
+
+    margin-top: 0;
+    padding-top: 0; 
+    border-top: 0; 
+
+}
+
+header  {
+
+    background-color: #f8f8ff;
+
+}
+
+h1 { 
+
+    text-align: center; 
+
+}
+
 nav a  {
 
     display: inline-block; 
@@ -14,6 +34,8 @@ nav a  {
     margin: 5px 0;
     width: 100%; 
     background-color: lightgrey;
+    font-weight: bold;
+    text-align: center;
 
 }
 
@@ -91,6 +113,7 @@ hr {
 
     padding-bottom: 0;
     margin-bottom: 0; 
+    border-bottom: 0;
 
 }
 
