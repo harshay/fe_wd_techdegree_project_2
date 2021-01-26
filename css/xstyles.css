@@ -149,7 +149,7 @@ hr {
 }
 
 
-#footerbottom h4:first-child {
+#footerbottom a {
  
     padding-left: 5px;
 
@@ -160,6 +160,14 @@ hr {
  
     float: right; 
     padding-right: 5px;
+
+}
+
+
+#footerbottom a:link {
+ 
+    color: white; 
+    text-decoration: none;
 
 }
 
