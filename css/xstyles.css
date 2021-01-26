@@ -66,6 +66,26 @@ nav a:hover {
 #profileimage { 
 
     max-width: 100%; 
+    display: block; 
+    margin: auto; 
+
+
+}
+
+main { 
+
+    display: block; 
+    margin: auto; 
+    text-align: center;
+
+}
+
+section ul {
+
+    margin: auto; 
+    list-style: none; 
+    text-align: center;
+
 
 }
 
@@ -77,7 +97,9 @@ nav a:hover {
 
 img { 
 
-    max-width: 100%;
+    max-width: 90%;
+    display: block; 
+    margin: auto; 
 
 } 
 
@@ -127,9 +149,17 @@ hr {
 }
 
 
-#footerbottom:last-child {
+#footerbottom h4:first-child {
+ 
+    padding-left: 5px;
+
+}
+
+
+#footerbottom h4:last-child {
  
     float: right; 
+    padding-right: 5px;
 
 }
 
