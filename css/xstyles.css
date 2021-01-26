@@ -24,6 +24,8 @@ header  {
 h1 { 
 
     text-align: center; 
+    margin-top: 0; 
+    padding-top: 5px; 
 
 }
 
@@ -61,8 +63,6 @@ nav a:hover {
 
 }
 
-
-
 #profileimage { 
 
     max-width: 100%; 
@@ -85,6 +85,7 @@ section ul {
     margin: auto; 
     list-style: none; 
     text-align: center;
+    padding-left: 0;
 
 
 }
