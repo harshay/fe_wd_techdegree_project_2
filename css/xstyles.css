@@ -9,6 +9,9 @@ html {
 
 nav a  {
 
+    display: inline-block; 
+    padding: 5px 0;
+    margin: 5px 0;
     width: 100%; 
     background-color: lightgrey;
 
@@ -56,8 +59,44 @@ img {
 
 } 
 
+footer { 
+
+    background-color: #f8f8ff;
+
+}
+
+
+
+footer h4 { 
+
+    display: inline-block; 
+
+}
+
+
+footer p { 
+
+    display: inline-block; 
+
+}
+
+#phonenumber {
+
+    float: right; 
+
+}
+
+
+hr {
+
+    padding-bottom: 0;
+    margin-bottom: 0; 
+
+}
+
 #footerbottom {
 
+    width: 100%; 
     background-color: #333030;
     font-family: 'Roboto', sans-serif;
     color: white; 
@@ -66,34 +105,13 @@ img {
 }
 
 
-#phonenumber {
-
-    float: right; 
-
-}
-
-#email {
-
+#footerbottom:last-child {
+ 
     float: right; 
 
 }
 
 
-
-#footerbottom { 
-
-    margin: 0; 
-    border: 0; 
-    padding: 0; 
-
-}
-
-
-#footerbottom:last-child { 
-
-    float: right; 
-
-}
  
 
 
