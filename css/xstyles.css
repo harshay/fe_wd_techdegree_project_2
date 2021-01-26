@@ -150,13 +150,26 @@ hr {
 }
 
 
+
 #footerbottom a {
  
+    
+    display: block; 
+    padding-right: 5px;
+    color: white;    
     padding-left: 5px;
+    float: right; 
+    margin: auto; 
 
 }
 
+#footerbottom a:link {
+ 
+    text-decoration: none;
 
+} 
+
+/*!
 #footerbottom h4:last-child {
  
     float: right; 
@@ -164,7 +177,7 @@ hr {
 
 }
 
-
+*/
  
 
 
