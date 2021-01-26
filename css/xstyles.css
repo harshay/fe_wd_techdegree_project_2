@@ -87,6 +87,11 @@ footer {
 
 }
 
+#footertop {
+
+    text-align: center;
+
+}
 
 
 footer h4 { 
@@ -99,12 +104,6 @@ footer h4 {
 footer p { 
 
     display: inline-block; 
-
-}
-
-#phonenumber {
-
-    float: right; 
 
 }
 
