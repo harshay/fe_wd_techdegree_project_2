@@ -176,17 +176,33 @@ media queries
 */ 
 
 @media screen and (min-width: 768px) { 
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+    nav  {
+
+        text-align: center;
+
+    }
     
+    
+    /*display : inline -> height, width and margins will be ignored*/ 
+
     nav a  {
 
-        display: inline; 
-        margin: auto; 
+        width: initial; 
 
     }    
 
     header p { 
 
-        display: inline
+        float: left; 
+        width: 50%; 
+        display: inline;
 
     }
 
@@ -195,6 +211,21 @@ media queries
         float: right; 
 
     }
+
+    .portfoliopiece { 
+
+
+        width: 50%; 
+        float: right; 
+
+    }
+
+    .img {
+
+        width: 100%; 
+
+    }   
+ 
 
 }
 
