@@ -157,8 +157,8 @@ hr {
  
     
     display: inline; 
-    padding-right: 5px;
-    color: white;    
+    color: white;  
+    margin-top: 50%;   
     margin: auto; 
     float: right; 
 
@@ -170,15 +170,36 @@ hr {
 
 } 
 
-/*!
-#footerbottom h4:last-child {
- 
-    float: right; 
-    padding-right: 5px;
+
+/*
+media queries 
+*/ 
+
+@media screen and (min-width: 768px) { 
+    
+    nav a  {
+
+        display: inline; 
+        margin: auto; 
+
+    }    
+
+    header p { 
+
+        display: inline
+
+    }
+
+    header img { 
+
+        float: right; 
+
+    }
 
 }
 
-*/
+
+
  
 
 
