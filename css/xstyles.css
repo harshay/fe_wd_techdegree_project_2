@@ -226,14 +226,95 @@ media queries
 
     }   
 
-    
+    .portfoliopiece { 
+
+
+        min-height:  450px; 
+
+    } 
  
 
 }
  
 
 
+/**********************************/
+/*1024px*/ 
 
+@media screen and (min-width: 1024px) { 
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+    nav  {
+
+        text-align: center;
+
+    }
+    
+    
+    /*display : inline -> height, width and margins will be ignored*/ 
+
+    nav a  {
+
+        width: initial; 
+
+    }    
+
+    header p { 
+
+        float: left; 
+        width: 50%; 
+        display: inline;
+
+    }
+
+    header img { 
+
+        float: right; 
+
+    }
+
+    #allprojects {
+
+        padding-right: 0;
+        padding-left: 0;
+
+    }
+
+    .portfoliopiece { 
+
+
+        width: 30%; 
+        float: right; 
+
+    }
+ 
+    .img {
+
+        width: 100%; 
+
+    }   
+
+    .portfoliopiece { 
+
+
+        min-height:  400px; 
+
+    } 
+ 
+
+    #skillsection { 
+
+        margin-top: 0;
+
+    }
+
+}
+ 
 
  
 
