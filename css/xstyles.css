@@ -170,6 +170,19 @@ hr {
 
 } 
 
+.mobilefooter { 
+
+    padding-right:10 px
+
+}
+
+.otherfooter { 
+
+    display: none; 
+    padding-right:10 px; 
+
+}
+
 
 /*
 media queries 
@@ -232,6 +245,21 @@ media queries
         min-height:  450px; 
 
     } 
+
+    
+    .mobilefooter { 
+
+        display: none;
+
+    }
+
+    
+    .otherfooter { 
+
+        display: inline-block; 
+
+    }
+
  
 
 }
@@ -321,6 +349,18 @@ media queries
         margin-top: 0;
         border-top: 0;
         padding-top: 0; 
+
+    }
+    
+    .mobilefooter { 
+
+        display: none;
+
+    }
+
+    .otherfooter {  
+
+        display: inline-block; 
 
     }
 
