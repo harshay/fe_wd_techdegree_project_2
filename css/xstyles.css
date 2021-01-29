@@ -283,13 +283,12 @@ media queries
     h1 { 
 
         display: inline; 
-        float: left; 
+        float: left;  
 
     }
     
     #topnav {
         
-        float: right; 
         text-align: right;
         
 
