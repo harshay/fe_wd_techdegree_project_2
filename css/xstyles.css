@@ -280,11 +280,12 @@ media queries
         display: table;
       }
 
-      h1 { 
+    h1 { 
 
         display: inline; 
+        float: left; 
 
-      }
+    }
     
     #topnav {
         
