@@ -288,7 +288,7 @@ media queries
     .portfoliopiece { 
 
 
-        width: 30%; 
+        width: 33.333%; 
         float: right; 
 
     }
@@ -299,6 +299,15 @@ media queries
 
     }   
 
+    #allprojects { 
+
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: 0;
+ 
+
+    }
+
     .portfoliopiece { 
 
 
@@ -307,9 +316,11 @@ media queries
     } 
  
 
-    #skillsection { 
+    #skillsection h2 { 
 
         margin-top: 0;
+        border-top: 0;
+        padding-top: 0; 
 
     }
 
