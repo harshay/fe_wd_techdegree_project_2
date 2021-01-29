@@ -280,12 +280,19 @@ media queries
         display: table;
       }
 
-    nav  {
+      h1 { 
 
-        text-align: center;
+        display: inline; 
+
+      }
+    
+    #topnav {
+        
+        float: right; 
+        text-align: right;
+        
 
     }
-    
     
     /*display : inline -> height, width and margins will be ignored*/ 
 
