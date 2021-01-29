@@ -153,15 +153,18 @@ hr {
 
 
 
-#footerbottom a {
- 
-    
-    display: inline; 
+#footerbottom h4 {
+    margin: 0;
+    padding: 0 10px;
+    line-height: 3.5; 
+}
+.mobilefooter, 
+.otherfooter {
+    margin: 0;
     color: white;  
-    margin-top: 50%;   
-    margin: auto; 
-    float: right; 
-
+    padding-right: 10px;
+    line-height: 3.5; 
+    float: right;
 }
 
 #footerbottom a:link {
